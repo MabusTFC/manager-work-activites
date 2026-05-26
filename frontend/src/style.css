@@ -1,0 +1,165 @@
+:root {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 1.45;
+  color: #1f2328;
+  background: #f6f7f9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 12px;
+}
+
+.layout {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+.layout__header {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e3e5e8;
+  margin-bottom: 20px;
+}
+
+.layout__main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e3e5e8;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form__row {
+  display: flex;
+  gap: 12px;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  font-size: 13px;
+  color: #57606a;
+}
+
+.form__field input,
+.form__field select {
+  font: inherit;
+  color: #1f2328;
+  padding: 8px 10px;
+  border: 1px solid #d0d7de;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.form__field input:focus,
+.form__field select:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: -1px;
+  border-color: #2563eb;
+}
+
+button[type='submit'] {
+  font: inherit;
+  align-self: flex-start;
+  padding: 8px 16px;
+  border: 1px solid #1f2328;
+  border-radius: 4px;
+  background: #1f2328;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type='submit']:disabled {
+  background: #8c959f;
+  border-color: #8c959f;
+  cursor: not-allowed;
+}
+
+.notice {
+  padding: 10px 12px;
+  border-radius: 4px;
+  border: 1px solid #d0d7de;
+  background: #f6f8fa;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.notice--error {
+  border-color: #f1a7a7;
+  background: #fdecec;
+  color: #8a1f1f;
+}
+
+.muted {
+  color: #57606a;
+  font-size: 14px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid #e3e5e8;
+}
+
+.table th {
+  background: #f6f8fa;
+  font-weight: 600;
+  color: #57606a;
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  border: 1px solid transparent;
+}
+
+.badge--work {
+  background: #e7f1ff;
+  color: #1d4ed8;
+  border-color: #c7dbff;
+}
+
+.badge--break {
+  background: #fff4d6;
+  color: #8a5a00;
+  border-color: #f5e2a8;
+}
