@@ -1,4 +1,4 @@
-package com.example.managerworkactivites.exception;
+package com.example.managerworkactivites.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

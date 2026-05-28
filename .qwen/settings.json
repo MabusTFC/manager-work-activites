@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvnw.cmd *)",
+      "Bash(mvn *)",
+      "Bash(cmd *)",
+      "Bash(java *)",
+      "Bash(dir *)",
+      "Bash(set *)",
+      "Bash(curl *)",
+      "Bash(powershell *)",
+      "Bash(javac *)",
+      "Bash(\"c:\\program files\\eclipse adoptium\\jdk-25.0.2.10-hotspot\\bin\\java.exe\" *)",
+      "Bash(%path%)",
+      "Bash(where *)",
+      "Bash(call *)",
+      "Bash(timeout *)",
+      "Bash(tasklist *)",
+      "Bash(ping *)",
+      "Bash(type *)",
+      "Bash(findstr *)",
+      "Bash(taskkill *)"
+    ]
+  },
+  "$version": 3
+}

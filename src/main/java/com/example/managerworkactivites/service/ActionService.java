@@ -4,10 +4,8 @@ import com.example.managerworkactivites.dto.ActionRequest;
 import com.example.managerworkactivites.dto.ActionResponse;
 import java.util.List;
 
-/**
- * Service интерфейс для работы с активностями
- */
-public interface ActionServiceImpl {
+
+public interface ActionService {
 
     //get action
     List<ActionResponse> getAllActions();
